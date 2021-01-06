@@ -1,0 +1,36 @@
+{
+  "name": "url_shortener",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Phatnguyen27/url_shortener.git",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@testing-library/react": "^11.2.2",
+    "babel-jest": "^26.6.3",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.17.0",
+    "eslint-plugin-react": "^7.22.0",
+    "html-webpack-plugin": "^4.5.1",
+    "jest": "^26.6.3",
+    "react-test-renderer": "^17.0.1",
+    "svg-url-loader": "^7.1.1",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.1"
+  },
+  "scripts": {
+    "start": "webpack serve --mode development --watch",
+    "build": "webpack --mode production",
+    "test": "jest --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.2.1"
+  }
+}
