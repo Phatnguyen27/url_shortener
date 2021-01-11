@@ -1,14 +1,11 @@
+import 'regenerator-runtime/runtime';
+import {delay} from "redux-saga/effects";
 import axios from "axios";
 
 export const UrlShortener = async (string) => {
     try {
-        const response = await axios({
-            method: "post",
-            url: "",
-            data: string
-        });
-        return response.data;
+        return "miniurl/id=ded2das3221s";
     } catch (error) {
-        return "Something Wrong";
+        return `${error}`;
     }
 };

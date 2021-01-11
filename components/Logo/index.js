@@ -4,7 +4,9 @@ import * as style from "./style";
 
 const Logo = () => (
     <style.Wrapper>
-        <img src={MiniURL} alt="MINI URL"/>
+        { MiniURL 
+        ? <img src={MiniURL} alt="MINI URL"/>
+        : <p>{MiniURL === "" ? "Missed!" : "Loading"}</p> }
     </style.Wrapper>
 );
 

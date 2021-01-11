@@ -3,6 +3,19 @@
 exports[`<Button /> 1`] = `
 <button
   className="sc-bdfBwQ leIcBc"
+  id="id"
+  name="name"
+  onClick={[Function]}
+>
+  button
+</button>
+`;
+
+exports[`test button component should render correctly 1`] = `
+<button
+  className="sc-bdfBwQ leIcBc"
+  id="id"
+  name="name"
   onClick={[Function]}
 >
   button

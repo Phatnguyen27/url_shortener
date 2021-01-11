@@ -2,10 +2,11 @@ import React from 'react';
 import * as style from './style';
 
 const Button = (props) => {
+    const { onClickHandler, name, id } = props;
     const onclickHandler = () => {
-        props.onClickHandler();
+        onClickHandler();
     }
-    return <style.Wrapper onClick={onclickHandler}>{props.content}</style.Wrapper>
+    return <style.Wrapper id = {id} name = {name} onClick={onclickHandler}>{props.content}</style.Wrapper>
 };
 
 export default Button;
